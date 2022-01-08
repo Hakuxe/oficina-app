@@ -1,10 +1,11 @@
 import React from "react";
-import { Text, View, Image } from "react-native";
+import { Text, View, Image, Touchable } from "react-native";
 
 import { Avatar } from "../Avatar/Avatar";
 import { urlAvatarDefault } from "../../assets/default-avatar";
 
 import { styles } from "./itemStyles";
+import { TouchableOpacity } from "react-native-gesture-handler";
 
 export function BudgetItem(props) {
 	const { seller, value, customer } = props;

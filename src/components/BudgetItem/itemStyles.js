@@ -1,9 +1,10 @@
 import { StyleSheet } from 'react-native';
+import {appTheme} from '../../global/styles/theme'
 
 
 export const styles = StyleSheet.create({
    container:{
-      backgroundColor:"#ccc",
+      backgroundColor:appTheme.colors.secondary100,
       borderRadius:8,
       paddingHorizontal:15,
       paddingVertical:20,
