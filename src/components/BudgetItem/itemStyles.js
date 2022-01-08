@@ -21,5 +21,6 @@ export const styles = StyleSheet.create({
       fontSize: 12,
       opacity: 0.5,
    },
+   
 
 });

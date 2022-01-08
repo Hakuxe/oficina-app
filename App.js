@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { View } from 'react-native';
 
-import { BudgetList } from './src/components/BudgetList/BudgetList';
+import { BudgetList } from './src/screens/BudgetList/BudgetList';
 
 export default function App() {
   return (
