@@ -12,6 +12,9 @@ export const styles = StyleSheet.create({
       flexDirection:'row',
       justifyContent:'space-between',
       alignItems: 'center',
+      borderColor: appTheme.colors.border40,
+      borderWidth: 1,
+      
    },
    seller:{
       fontSize: 15,
