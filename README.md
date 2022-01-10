@@ -1,10 +1,19 @@
 ## 💻 Projeto
+
 **Desafio** Técnico para vaga de estágio: Construir uma prova de conceito para realizar a venda de um projeto.\
 **Descrição**: Oficina App, aplicativo que visa facilitar o acompanhamento dos pedidos de orçamento através do celular, para monitorar o volume de vendas de uma oficina. 
 
 ## 📋 Layout
 
-img do proj
+<p align="center">
+   <img 
+      alt="orçamento screen" 
+      height="400" 
+      style="margin-right:30px" 
+      src=".github/picture1" 
+   />
+   <img alt="modal" height="400" src=".github/picture" />
+</p>
 
 ## ✨ Características 
 

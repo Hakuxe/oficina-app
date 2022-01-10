@@ -35,35 +35,40 @@ export function BudgetList() {
 	}
 
 	return (
-		<View style={styles.container}>
+		<>
 			<Header />
-				<Text style={errorApi ? { display: "flex" } : { display: "none" }}>
-					Erro ao carregaros dados!!{"\n"}
-					Tente novamente mais tarde
-				</Text>
-			<ScrollView>
-				<View style={styles.content}>
-					{list.map((item) => {
-						return (
-							<BudgetItem
-								key={item.id}
-								seller={item.seller}
-								value={item.value}
-								customer={item.customer}
-								description={item.description}
-								handlePress={toggleModal}
-							/>
-						);
-					})}
+			<View style={errorApi ? styles.errorMessage : { display: "none" }}>
+				<Text>
+						Erro ao carregaros dados!!{"\n"}
+						Tente novamente mais tarde
+					</Text>
+			</View>
+			
+			<View style={errorApi ? { display: "none" } : styles.container}>	
+				<ScrollView>
+					<View style={styles.content}>
+						{list.map((item) => {
+							return (
+								<BudgetItem
+									key={item.id}
+									seller={item.seller}
+									value={item.value}
+									customer={item.customer}
+									description={item.description}
+									handlePress={toggleModal}
+								/>
+							);
+						})}
 
-					<DescriptionModal
-						modalVisible={modalVisible}
-						toggleModal={toggleModal}
-						descrition={description}
-						titleModal={"Descrição"}
-					/>
-				</View>
-			</ScrollView>
-		</View>
+						<DescriptionModal
+							modalVisible={modalVisible}
+							toggleModal={toggleModal}
+							descrition={description}
+							titleModal={"Descrição"}
+						/>
+					</View>
+				</ScrollView>
+			</View>
+		</>
 	);
 }

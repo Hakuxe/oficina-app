@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import {getStatusBarHeight} from 'react-native-iphone-x-helper'
 import { appTheme } from "../../global/styles/theme";
 
 export const styles = StyleSheet.create({
@@ -6,6 +7,7 @@ export const styles = StyleSheet.create({
 		backgroundColor: appTheme.colors.primary,
 		paddingHorizontal: 15,
 		paddingVertical: 15,
+		marginTop:getStatusBarHeight() 
 	},
 	title: {
 		color: appTheme.colors.title,
