@@ -39,7 +39,7 @@ export function BudgetList() {
 			<Header />
 			<View style={errorApi ? styles.errorMessage : { display: "none" }}>
 				<Text>
-						Erro ao carregaros dados!!{"\n"}
+						Erro ao carregar os dados!!{"\n"}
 						Tente novamente mais tarde
 					</Text>
 			</View>

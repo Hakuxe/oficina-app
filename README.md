@@ -10,9 +10,9 @@
       alt="orçamento screen" 
       height="400" 
       style="margin-right:30px" 
-      src=".github/picture1" 
+      src=".github/picture1.jpg" 
    />
-   <img alt="modal" height="400" src=".github/picture" />
+   <img alt="modal" height="400" src=".github/picture2.jgp" />
 </p>
 
 ## ✨ Características 
