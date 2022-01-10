@@ -12,7 +12,7 @@
       style="margin-right:30px" 
       src=".github/picture1.jpg" 
    />
-   <img alt="modal" height="400" src=".github/picture2.jgp" />
+   <img alt="modal" height="400" src=".github/picture2.jpg" />
 </p>
 
 ## ✨ Características 
